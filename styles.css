@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+h2 {
+  color: grey;
+}
+
+button {
+  border: none;
+  background-color: grey;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+button:active {
+  transform: scale(0.95);
+}
